@@ -1,68 +1,181 @@
-# WindowTaleProject
-WindowTale: un bullet hell donde tu escritorio es el campo de batalla al estilo UnderTale. Esquiva ataques de huesos con mecánicas de color y fragmentación sobre una ventana transparente. Creado por un estudiante de filosofía y desarrollador, este proyecto integra el caos directamente en tu espacio de trabajo, rompiendo la cuarta pared. WindowTale es un repositorio de desarrollo de videojuegos basado en Unity que muestra diversas características y tecnologías utilizadas en el desarrollo de videojuegos. Este proyecto busca brindar una comprensión integral de los principios del desarrollo de videojuegos, incluyendo la gestión del estado del juego, la detección de colisiones, la animación y el diseño de la interfaz de usuario. El proyecto incluye una variedad de scripts y recursos que demuestran diferentes aspectos del desarrollo de videojuegos, lo que lo convierte en un recurso ideal para desarrolladores que buscan aprender y mejorar sus habilidades.
+<p align="center">
+  <img src="docs/banner.png" width="100%" alt="WindowTale Banner">
+</p>
+<h1 align="center">WindowTale</h1>
+<p align="center">
+<b>Un Bullet Hell donde tu escritorio se convierte en el campo
+de batalla.</b>
+</p>
+<p align="center">
+Inspirado en <b>Undertale</b> y <b>Just
+Shapes & Beats</b>, WindowTale rompe la cuarta pared utilizando
+una ventana transparente que permite jugar directamente sobre el
+escritorio de Windows.
+</p>
+<p align="center">
+<img src="https://img.shields.io/badge/Unity-2022+-black?style=for-the-badge&logo=unity">
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white">
+<img src="https://img.shields.io/badge/2D-Bullet_Hell-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows">
+</p>
+
+<br>
+
+# 📑 Índice
+
+-   📖 Descripción
+-   ✨ Características
+-   🎮 Mecánicas
+-   🦴 Tipos de Huesos
+-   🎮 Controles
+-   🛠 Tecnologías
+-   📂 Estructura
+-   📸 Capturas
+-   🚀 Instalación
+-   📈 Estado
+-   💡 Roadmap
+-   👨‍💻 Autor
+
+<br>
+
+# 📖 Descripción
+
+**WindowTale** es un videojuego **Bullet Hell 2D** desarrollado en
+**Unity**, donde el jugador controla un corazón que debe sobrevivir a
+oleadas de ataques utilizando movimiento preciso y un dash de esquiva.
+
+Su principal característica es el uso de una **ventana transparente**,
+permitiendo que el escritorio del usuario forme parte del escenario y
+convirtiendo el sistema operativo en el campo de batalla.
+
+<br>
+
+# ✨ Características
+
+-   🖥️ Juego sobre el escritorio de Windows.
+-   ❤️ Sistema de vidas.
+-   ⚡ Dash con tiempo de reutilización.
+-   🌍 Movimiento continuo entre bordes de pantalla.
+-   🦴 Enemigos con mecánicas basadas en colores.
+-   📈 Dificultad progresiva.
+-   🎨 Estética Pixel Art.
+
+<br>
+
+# 🎮 Mecánicas
+
+### ❤️ Supervivencia
+
+Sobrevive el mayor tiempo posible evitando los ataques.<br><br>
+<img src="docs/gifs/survive.gif" width="20%" alt="WindowTale Survive">
+
+### ⚡ Dash
+
+Permite esquivar ataques rápidamente con un breve tiempo de
+invulnerabilidad.<br><br>
+<img src="docs/gifs/dash.gif" width="20%" alt="WindowTale Dash">
+
+### 🌍 Movimiento entre bordes
+
+Al salir por un borde de la pantalla el jugador aparece por el lado
+contrario.<br><br>
+<img src="docs/gifs/wrap.gif" width="20%" alt="WindowTale Wrap">
+
+### 📈 Dificultad dinámica
+
+Conforme avanza la partida aumentan la velocidad y la cantidad de
+ataques.
+
+<br>
+
+# 🦴 Tipos de Huesos
+
+  | Tipo | Mecánica |
+  | -------------------- | --------------------------------- |
+  |💿 Gris         |    _No hace nada_          |
+  |⚪ Blanco         |    Hace daño al contacto.          |
+  |🔵 Azul   |           Solo daña cuando el jugador se mueve.   |            
+  |🟠 Naranja      |     Solo daña cuando el jugador permanece quieto.    |             
+  |🟢 Verde        |     Recupera una vida al tocarlo.  |
+  |🔴 Rojo        |      Rebota continuamente por la pantalla.    |
+  |🟡 Amarillo   |       Se desplaza con trayectorias especiales. | 
+  |🟣 Morado      |      Al impactar contra un borde se fragmenta en múltiples huesos pequeños.  |                   
+  ---------------------------------------------------------------------------
+
+<br>
 
 
-WindowTale incluye las siguientes características clave:
-* Gestión del estado del juego mediante el script `GameManager`
-* Detección y respuesta de colisiones mediante el script `PlayerCollision`
-* Animación y movimiento mediante los scripts `SquashAndStretch`, `BoneMovement` y `Movement`
-* Diseño y animación de la interfaz de usuario mediante los scripts `TransparentWindow` y `UIAnimator`
-* Renderizado y animación de texto mediante el script `RaimbowText`
-* Efectos de postprocesamiento y desarrollo de juegos 2D mediante los paquetes integrados de Unity
+# 🛠 Tecnologías
 
-## 🛠️ Tecnologías utilizadas
-El proyecto Window utiliza las siguientes tecnologías:
-* Motor de juegos Unity
-* Lenguaje de programación C#
-* Paquetes integrados de Unity, incluyendo:
+  |Categoría |   Tecnología|
+  |------------| -------------------|
+  |Motor |       Unity|
+  |Lenguaje   |  C#|
+  |UI           |TextMeshPro, UGUI|
+  |Render       |Post Processing|
+  |Plataforma  | Windows|
+ 
+<br>
 
-+ `com.unity.collab-proxy` para trabajo colaborativo
-+ `com.unity.feature.2d` para desarrollo de juegos 2D
-+ `com.unity.postprocessing` para postprocesamiento Efectos
+# 📂 Estructura del Proyecto
 
-+ `com.unity.textmeshpro` para renderizado avanzado de texto
-
-+ `com.unity.timeline` para crear y gestionar líneas de tiempo
-
-+ `com.unity.ugui` para el sistema de interfaz de usuario (UI) de Unity
-
-+ `com.unity.visualscripting` para programación visual
-
-## 📦 Instalación
-Para configurar el proyecto de ventana, sigue estos pasos:
-1. Clona el repositorio con Git
-2. Abre el proyecto en Unity
-3. Instala los paquetes necesarios con el Administrador de paquetes de Unity
-4. Importa los recursos y scripts necesarios
-_(hasta deploy)_
-
-## 💻 Uso
-Para usar el proyecto de ventana, sigue estos pasos:
-1. Abre el proyecto en Unity
-2. Ejecuta el juego haciendo clic en el botón "Reproducir" en el editor de Unity
-3. Interactúa con el juego usando los dispositivos de entrada (por ejemplo, teclado, ratón, mando)
-_(hasta deploy)_
-
-## 📂 Estructura del proyecto
-```markdown
+``` text
 WindowProject/
-├── Recursos/
-│ ├── Scripts/
-│ │ ├── GameManager.cs
-│ │ ├── PlayerCollision.cs
-│ │ ├── SquashAndStretch.cs
-│ │ ├── TransparentWindow.cs
-│ │ ├── RainbowText.cs
-│ │ ├── BoneMovement.cs
-│ │ ├── UIAnimator.cs
-│ │ ├── Movement.cs
-│ ├── Paquetes/
-│ │ ├── manifest.json
-│ ├── Scenes/
-│ ├── Textures/
-│ ├── Models/
+├── Assets/
+│   ├── Scripts/
+│   ├── Scenes/
+│   ├── Prefabs/
+│   ├── Sprites/
+│   └── Audio/
 ├── Packages/
 ├── ProjectSettings/
+├── Ejecutable/
+└── README.md
 ```
 
-## 📸 Capturas de pantalla
+<br>
+
+# 🚀 Instalación
+
+1.  Abrir carpeta de Ejecutable
+2. Ejecutar el archivo WindowTale.exe
+
+<br>
+
+# 📈 Estado
+
+  |Característica            | Estado|
+  |-------------------------| --------|
+  |Movimiento             |      ✅|
+  |Dash                  |       ✅|
+  |IA de huesos           |      ✅|
+  |Sistema de vidas       |      ✅|
+  |Ventana transparente    |    ✅|
+  |Fragmentación de huesos   |   ✅|
+
+🟢 **Proyecto en desarrollo activo**
+
+<br>
+
+# 💡 Roadmap
+
+-   🎵 Música dinámica.
+-   👾 Nuevos patrones de ataque.
+-   🦴 Más tipos de huesos.
+-   🏆 Sistema de puntuaciones.
+-   🎮 Compatibilidad con mando.
+
+<br>
+
+# 👨‍💻 Autor
+
+**Samuel Durán Cárdenas**
+
+Desarrollador de videojuegos con Unity y C#.
+
+
+<p align="center">
+<b>⭐ Si te gustó el proyecto, considera dejar una estrella en
+el repositorio.`</b>`{=html}<br><br> Desarrollado con
+❤️ por <b>Samuel Durán</b>
+</p>
