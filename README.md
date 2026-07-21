@@ -67,24 +67,25 @@ convirtiendo el sistema operativo en el campo de batalla.
 ### ❤️ Supervivencia
 
 Sobrevive el mayor tiempo posible evitando los ataques.<br><br>
-<img src="docs/gifs/survive.gif" width="20%" alt="WindowTale Survive">
+<img src="docs/gifs/survive.gif" width="60%" alt="WindowTale Survive">
 
 ### ⚡ Dash
 
 Permite esquivar ataques rápidamente con un breve tiempo de
 invulnerabilidad.<br><br>
-<img src="docs/gifs/dash.gif" width="20%" alt="WindowTale Dash">
+<img src="docs/gifs/dash.gif" width="60%" alt="WindowTale Dash">
 
 ### 🌍 Movimiento entre bordes
 
 Al salir por un borde de la pantalla el jugador aparece por el lado
 contrario.<br><br>
-<img src="docs/gifs/wrap.gif" width="20%" alt="WindowTale Wrap">
+<img src="docs/gifs/wrap.gif" width="60%" alt="WindowTale Wrap">
 
 ### 📈 Dificultad dinámica
 
 Conforme avanza la partida aumentan la velocidad y la cantidad de
-ataques.
+ataques.<br><br>
+<img src="docs/gifs/difficult.gif" width="60%" alt="WindowTale Wrap">
 
 <br>
 
