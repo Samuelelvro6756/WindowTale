@@ -168,11 +168,13 @@ WindowProject/
 
 <br>
 
-# 👨‍💻 Autor
+# 👨‍💻 Autor y Medios
 
 **Samuel Durán Cárdenas**
 
-Desarrollador de videojuegos con Unity y C#.
+Desarrollador de videojuegos con Unity y C#.<br>
+
+**Itch.io:** https://samuel-duran-cardenas.itch.io/windowtale
 
 
 <p align="center">
