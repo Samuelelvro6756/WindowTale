@@ -17,6 +17,7 @@ escritorio de Windows.
 <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white">
 <img src="https://img.shields.io/badge/2D-Bullet_Hell-blue?style=for-the-badge">
 <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows">
+<a href="https://samuel-duran-cardenas.itch.io/windowtale"><img src="https://img.shields.io/badge/Itch.io-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Disponible en Itch.io" />
 </p>
 
 <br>
@@ -33,7 +34,7 @@ escritorio de Windows.
 -   📸 Capturas
 -   🚀 Instalación
 -   📈 Estado
--   💡 Roadmap
+-   💡 Desarrollo y Reflexiones
 -   👨‍💻 Autor
 
 <br>
@@ -158,13 +159,29 @@ WindowProject/
 
 <br>
 
-# 💡 Roadmap
+# 💡 Desarrollo y Reflexiones
 
--   🎵 Música dinámica.
--   👾 Nuevos patrones de ataque.
--   🦴 Más tipos de huesos.
--   🏆 Sistema de puntuaciones.
--   🎮 Compatibilidad con mando.
+## 📝 Nota del desarrollador
+
+WindowTale nació como un experimento para explorar una idea poco convencional: convertir el escritorio del usuario en parte del escenario del juego. Inspirado en títulos como Undertale y Rhythm Doctor, el objetivo fue diseñar una experiencia donde la ventana dejara de ser un simple contenedor para convertirse en un elemento de la jugabilidad.
+
+Este proyecto representa mi interés por combinar diseño de videojuegos, programación y experimentación con interfaces no tradicionales.
+
+## 🧠 Decisiones de diseño
+
+- Utilizar una ventana transparente como parte de la experiencia.
+- Mantener una estética minimalista para centrar la atención en la jugabilidad.
+- Diseñar mecánicas fáciles de comprender pero difíciles de dominar.
+
+## 📚 Aprendizajes
+
+- Manejo de ventanas del SO.
+- Diseño de mecánicas de precisión.
+- Organización de un proyecto de videojuego desde sus primeras etapas.
+
+## 🔄 ¿Qué haría diferente?
+
+Hoy dedicaría más tiempo al diseño de la arquitectura del proyecto antes de implementar nuevas mecánicas, facilitando su escalabilidad.
 
 <br>
 
