@@ -155,7 +155,7 @@ WindowProject/
   |Ventana transparente    |    ✅|
   |Fragmentación de huesos   |   ✅|
 
-🟢 **Proyecto en desarrollo activo**
+🟢 **Proyecto finalizado**
 
 <br>
 
